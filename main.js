@@ -95,8 +95,8 @@ function game(playerChoice) {
   showResultElement.innerHTML = `
     You ${result} <br>
     You
-    <img src="../rockPaperScissors/images/${playerChoice}-emoji.png" class="move-icon" alt="">
-    <img src="../rockPaperScissors/images/${computerChoice}-emoji.png" class="move-icon" alt="">
+    <img src="images/${playerChoice}-emoji.png" class="move-icon" alt="">
+    <img src="images/${computerChoice}-emoji.png" class="move-icon" alt="">
     Computer`;
 }
 
